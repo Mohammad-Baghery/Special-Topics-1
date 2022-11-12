@@ -43,3 +43,7 @@ print("UserAges 3 = ",_userages3)
 #Slice example
 _userages4=_userages[1:5:2]
 print("UserAges 4 = ",_userages4)
+
+#Adding item to list
+_userages.append(99)
+print(_userages)
