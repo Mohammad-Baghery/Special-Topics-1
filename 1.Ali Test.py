@@ -27,3 +27,13 @@ B=int(A)
 print(B)
 C=float(B)
 print(C)
+
+#List examples
+_userages=[24,20,25,28,30]
+print("UserAges = ",_userages)
+print("index 1 = ",_userages[1])
+print("index -1 = ",_userages[-1])
+_userages2=_userages
+print("UserAges 2 = ",_userages2)
+
+
