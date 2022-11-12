@@ -20,7 +20,6 @@ print(_text)
 #Formating strings with format
 print('Message {0:s} text is test {1:f}' .format('one', 3.14))
 
-
 #Type Casting
 A=3.14
 B=int(A)
