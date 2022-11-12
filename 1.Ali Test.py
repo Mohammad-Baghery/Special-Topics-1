@@ -51,3 +51,10 @@ print(_userages)
 #Deleting item from list
 del _userages[1]
 print(_userages)
+
+#HomeWork: Write a program using "format"
+scores = [{'name': 'Mohammad' , 'score': 85},
+          {'name': 'Parham', 'score': 95},
+		  {'name': 'Ali' , 'score': 69}]
+for student in scores:
+    print( f"{student['name']}'s score is: {student['score']}" )
