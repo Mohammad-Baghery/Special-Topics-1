@@ -47,3 +47,7 @@ print("UserAges 4 = ",_userages4)
 #Adding item to list
 _userages.append(99)
 print(_userages)
+
+#Deleting item from list
+del _userages[1]
+print(_userages)
