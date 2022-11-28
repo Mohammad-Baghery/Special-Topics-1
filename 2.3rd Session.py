@@ -30,3 +30,9 @@ number1=5
 number2=6
 print(number1 is number2)
 print(number1 is not number2)
+
+#input Examples
+name=input("Enter Your Name: ")
+age=input("Enter Your Age: ")
+
+
