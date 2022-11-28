@@ -24,3 +24,9 @@ print(y)
 #Membership Examples
 print(5 in [8, 3, 5, 20])
 print(5 not in [8, 3, 5, 20])
+
+#Identity Examples
+number1=5
+number2=6
+print(number1 is number2)
+print(number1 is not number2)
