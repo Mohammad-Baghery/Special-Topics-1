@@ -35,4 +35,10 @@ print(number1 is not number2)
 name=input("Enter Your Name: ")
 age=input("Enter Your Age: ")
 
-
+#if & else Examples
+A=15
+B=16
+if(A>B):
+    print("A>B")
+else:
+    print("A<B")
