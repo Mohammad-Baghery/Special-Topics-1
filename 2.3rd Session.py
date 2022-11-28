@@ -20,3 +20,7 @@ x=10<<2
 print(x)
 y=10>>2
 print(y)
+
+#Membership Examples
+print(5 in [8, 3, 5, 20])
+print(5 not in [8, 3, 5, 20])
