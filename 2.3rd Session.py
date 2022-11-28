@@ -42,3 +42,13 @@ if(A>B):
     print("A>B")
 else:
     print("A<B")
+
+#HomeWork: receive 2 nums and calculate are they divisible to eachother or not
+Num1=int(input("Enter Number 1: "))
+Num2=int(input("Enter Number 2: "))
+if Num1/Num2==0:
+    print("Divisible")
+else:
+    print("Undivisible")
+
+    
