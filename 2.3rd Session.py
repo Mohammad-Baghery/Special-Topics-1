@@ -1,10 +1,10 @@
 #3rd Session
 num1=int(10)
 num2=int(5)
-print("{}=={1}:{2}".format(num1,num2,num1==num2))
-print("{}!={1}:{2}".format(num1,num2,num1==num2))
-print("{}<>{1}:{2}".format(num1,num2,num1==num2))
-print("{}<{1}:{2}".format(num1,num2,num1==num2))
+print("{}=={}:{}".format(num1,num2,num1==num2))
+print("{}!={}:{}".format(num1,num2,num1==num2))
+print("{}<>{}:{}".format(num1,num2,num1==num2))
+print("{}<{}:{}".format(num1,num2,num1==num2))
 
 # & examples
 Resault=(5&3)
@@ -52,10 +52,10 @@ else:
     print("Undivisible")
 
 #HomeWork 2: receive 3 nums and calculate can the build a tiangle
-num1=int(input("Enter First Number: "))
-num2=int(input("Enter Second Number: "))
-num3=int(input("Enter Third Number: "))
-if((num1+num2>num3) and (num1+num3>num2) and (num3+num2>num1)):
-    print("Perimeter Is: ",(num1+num2+num3))
+_num1=int(input("Enter First Number: "))
+_num2=int(input("Enter Second Number: "))
+_num3=int(input("Enter Third Number: "))
+if((_num1+_num2>_num3) and (_num1+_num3>_num2) and (_num3+_num2>_num1)):
+    print("Perimeter Is: ",(_num1+_num2+_num3))
 else:
     print("They Can't make a triangle")
