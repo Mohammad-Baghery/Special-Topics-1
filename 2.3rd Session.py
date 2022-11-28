@@ -2,9 +2,9 @@
 num1=int(10)
 num2=int(5)
 print("{}=={}:{}".format(num1,num2,num1==num2))
-print("{}!={}:{}".format(num1,num2,num1==num2))
-print("{}<>{}:{}".format(num1,num2,num1==num2))
-print("{}<{}:{}".format(num1,num2,num1==num2))
+print("{}!={}:{}".format(num1,num2,num1!=num2))
+print("{}<>{}:{}".format(num1,num2,num1!=num2))
+print("{}<{}:{}".format(num1,num2,num1<num2))
 
 # & examples
 Resault=(5&3)
