@@ -51,4 +51,11 @@ if Num1/Num2==0:
 else:
     print("Undivisible")
 
-    
+#HomeWork 2: receive 3 nums and calculate can the build a tiangle
+num1=int(input("Enter First Number: "))
+num2=int(input("Enter Second Number: "))
+num3=int(input("Enter Third Number: "))
+if((num1+num2>num3) and (num1+num3>num2) and (num3+num2>num1)):
+    print("Perimeter Is: ",(num1+num2+num3))
+else:
+    print("They Can't make a triangle")
