@@ -19,3 +19,90 @@ elif(STR=='d' or STR =='D'):
 else:
     print("Input Charachter NOT Correct!")
 
+#Index Examples in list:
+Name=["ABC","DEF","GHI"]
+x=Name[0]
+print(x)
+
+#Len Example:
+Y=len(Name)
+print(Y)
+
+#For exapmle in Lists:
+for i in Name:
+    print(i)
+
+#Add & Remove From Lists:
+Name.append("JKL")
+Name.pop(0)
+print(Name)
+
+#input 5 names and print them
+name=[]
+for i in range(0,5):
+    STR=input("Enter Names: ")
+    name.append(STR)
+for i in name:
+    print(i)
+
+#input 100 Numbers and find the Max:
+temp=0
+num=[]
+for i in range(0,101):
+    STR=input("Enter Numbers: ")
+    num.append(int(STR))
+for i in num:
+    if(i>temp):
+           temp=i
+print(temp)
+
+#Find the Max Repeats in last example:
+c=0
+temp=0
+num=[]
+for i in range(0,101):
+    STR=input("Enter Numbers: ")
+    num.append(int(STR))
+for i in num:
+    if(i>temp):
+           temp=i
+for i in num:
+    if(i==temp):
+        c+=1
+print("Max is : ",temp," And Number of Repeats: ",c)
+
+#make list with 100 random numbers & sort them ascending:
+import random
+from random import randint
+from random import seed
+temp=0
+Num=[]
+for i in range(0,100):
+    Num.append(random.randint(0,100))
+for i in Num:
+    for j in Num:
+        if(i>j):
+            temp=i
+            i=j
+            j=temp
+print(Num)
+
+#Use Def and plus two imputs:
+def Calc(X,Y):
+    Z=X+Y
+    print(Z)
+A=int(input("Enter First Number: "))
+B=int(input("Enter Second Number: "))
+Calc(A,B)
+
+#Use Def and plus two imputs and send answer to main def:
+def calc(x,y):
+    z=x+y
+    return z
+a=int(input("Enter First Number: "))
+b=int(input("Enter Second Number: "))
+c=calc(a,b)
+print(c)
+
+#Write a Def for Exapmle (EX2):
+
