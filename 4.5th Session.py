@@ -120,3 +120,14 @@ num2 = int(input("Enter Second Number: "))
 BM=BMM(num1, num2)
 print("BMM=", BMM(num1, num2))
 print("KMM=",(num1*num2)/BM)
+
+#program to calculate distance between two points
+import math
+def distance(x1 , y1 , x2 , y2):
+    return math.sqrt(math.pow(x2 - x1, 2) +
+                math.pow(y2 - y1, 2) * 1.0)
+h=int(input("Enter X1: "))
+i=int(input("Enter X2: "))
+j=int(input("Enter Y1: "))
+k=int(input("Enter Y2: "))
+print("%.6f"%distance(h, i ,j, k))
