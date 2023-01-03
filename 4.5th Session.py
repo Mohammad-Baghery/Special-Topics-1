@@ -104,5 +104,19 @@ b=int(input("Enter Second Number: "))
 c=calc(a,b)
 print(c)
 
-#Write a Def for Exapmle (EX2):
+#Write a KMM program:
+def BMM(x, y):
+    if x > y:
+        smaller = y
+    else:
+        smaller = x
+    for i in range(1, smaller+1):
+        if((x % i == 0) and (y % i == 0)):
+            bmm = i 
+    return bmm
 
+num1 = int(input("Enter First Number: ")) 
+num2 = int(input("Enter Second Number: ")) 
+BM=BMM(num1, num2)
+print("BMM=", BMM(num1, num2))
+print("KMM=",(num1*num2)/BM)
